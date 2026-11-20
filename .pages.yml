@@ -1,0 +1,26 @@
+
+media:
+  input: media
+  output: /media
+
+content:
+  - name: jobs
+    label: Job Vacancies
+    type: collection
+    path: jobs
+    view:
+      fields: [title, location, pay]
+    fields:
+      - name: title
+        label: Job Title
+        type: string
+        required: true
+      - name: location
+        label: Location
+        type: string
+      - name: pay
+        label: Pay Rate
+        type: string
+      - name: description
+        label: Job Description
+        type: rich-text

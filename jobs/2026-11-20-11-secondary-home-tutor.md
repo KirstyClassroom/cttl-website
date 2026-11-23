@@ -64,13 +64,9 @@ description: >-
   **Register Your Interest**
 
 
-  If you're interested in online tuition opportunities, we'd love to hear from
-  you.
-
-
-  Email
-  **[apply@classroomteachers.co.uk](mailto:apply@classroomteachers.co.uk)** to
-  register your interest.
+  To apply for this opportunity, please click the **Apply / Register Interest**
+  button below to complete our short online application form. You can also
+  upload your CV, although this is optional.
 
 
   *This is a general recruitment advert. Specific assignments are subject to

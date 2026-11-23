@@ -1,2 +1,41 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>Current Jobs | CTTL</title><link href="style.css" rel="stylesheet"/></head><body><div id="site-header"></div><main><section class="pagehero"><div class="container"><span class="eyebrow">Opportunities</span><h1>Current jobs and opportunities.</h1><p class="lead">We recruit for short-term, long-term and permanent education roles across Greater London.</p></div></section><section class="section"><div class="container"><div class="split"><div><h2>Looking for your next role?</h2><p>We recruit qualified teachers, specialist 1:1 tutors, teaching assistants, SEND support staff and other education professionals.</p><p><strong>There are no verified live vacancies listed on this page at present.</strong> Please contact our team to discuss current opportunities and register your interest.</p><p>1:1 tuition roles are generally paid hourly, while teaching and classroom support assignments are generally paid daily. Specific rates are discussed for each opportunity.</p></div><div class="panel"><h2>Register your interest</h2><p>Email <a href="mailto:apply@classroomteachers.co.uk?subject=Education%20Work%20Enquiry">apply@classroomteachers.co.uk</a> or call <a href="tel:+442076360600">020 7636 0600</a>.</p><p><a class="btn" href="candidates.html">For Candidates</a></p></div></div></div></section></main><div id="site-footer"></div><script src="common.js"></script><script>const search=document.getElementById('job-search'),category=document.getElementById('job-category');function filter(){let n=0;document.querySelectorAll('.job-card').forEach(card=>{const show=card.textContent.toLowerCase().includes(search.value.toLowerCase())&&(!category.value||card.dataset.category===category.value);card.classList.toggle('hidden',!show);if(show)n++});document.getElementById('no-jobs').classList.toggle('hidden',n!==0)}search.addEventListener('input',filter);category.addEventListener('change',filter);</script></body></html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Current Jobs | CTTL</title><link href="style.css" rel="stylesheet">
+<style>
+.job-list {display:grid;gap:16px;margin-top:25px}
+.job-listing {padding:24px;border:1px solid #d9e5dc;border-radius:12px;background:#fff}
+.job-listing h2 {margin:0 0 8px;font-size:1.35rem}
+.job-listing p {margin:0 0 15px}
+.job-meta {color:#426454;font-size:.95rem}
+.job-detail {max-width:850px}
+.job-detail .description {line-height:1.75;margin:24px 0}
+.job-detail .description h3 {margin-top:22px}
+.job-detail .description li {margin-bottom:6px}
+.hidden {display:none!important}
+</style>
+</head>
+<body><div id="site-header"></div>
+<main>
+<section class="pagehero"><div class="container"><span class="eyebrow">Opportunities</span><h1>Current jobs and opportunities.</h1><p class="lead">Explore education opportunities across Greater London, including specialist 1:1 tuition, teaching and school support roles.</p></div></section>
+<section class="section"><div class="container">
+<div id="jobs-list-view">
+<h2>Explore opportunities</h2>
+<p>We advertise both general recruitment opportunities and specific vacancies as they arise. Please check the description of each listing for details.</p>
+<div id="jobs-status" role="status">Loading opportunities…</div>
+<div id="jobs-list" class="job-list"></div>
+<div class="panel" style="margin-top:28px"><h2>Can't find the right role?</h2><p>Register your interest by emailing <a href="mailto:apply@classroomteachers.co.uk?subject=Candidate%20Registration%20Enquiry">apply@classroomteachers.co.uk</a> or calling <a href="tel:+442076360600">020 7636 0600</a>.</p><p><a class="btn" href="candidates.html">For Candidates</a></p></div>
+</div>
+<div id="job-detail-view" class="job-detail hidden">
+<p><a href="jobs.html">← Back to all opportunities</a></p>
+<h2 id="job-title"></h2><p class="job-meta" id="job-meta"></p>
+<div id="job-description" class="description"></div>
+<p><a id="job-apply" class="btn" href="mailto:apply@classroomteachers.co.uk">Apply / Register Interest</a></p>
+<p><small>Applications are currently handled by email. An online application form with optional CV upload is planned but is not active yet.</small></p>
+</div>
+</div></section>
+</main>
+<div id="site-footer"></div>
+<script src="common.js"></script><script src="jobs.js"></script>
+</body></html>

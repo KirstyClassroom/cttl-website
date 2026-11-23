@@ -1,5 +1,5 @@
 ---
-title: 1:1 Secondary Home Tutor
+title: 1:1 Secondary Online Tutor
 location: Online
 pay: Competitive hourly rate – discussed upon registration
 description: >-
@@ -8,7 +8,7 @@ description: >-
 
   **Classroom Teachers & Tutors Limited (CTTL)** is looking to hear from
   qualified teachers and experienced tutors interested in providing personalised
-  online tuition to children and young people.
+  online tuition to KS3/4/5 students.
 
 
   We work with schools and local authorities across Greater London, supporting
@@ -49,7 +49,9 @@ description: >-
   **What We Offer**
 
 
-  - Opportunities for hourly paid tuition assignments.
+  - Opportunities for hourly paid tuition assignments. Generally 15hours per
+  student scheduled at 3hours per day either am or pm. Possible to have 2
+  students to make the role full time.
 
   - PAYE and umbrella company payment options.
 

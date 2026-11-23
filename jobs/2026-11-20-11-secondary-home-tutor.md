@@ -49,7 +49,7 @@ description: >-
   **What We Offer**
 
 
-  - Opportunities for hourly paid tuition assignments. Generally 15hours per
+  - Opportunities for hourly paid tuition assignments. Generally 15 hours per
   student scheduled at 3hours per day either am or pm. Possible to have 2
   students to make the role full time.
 

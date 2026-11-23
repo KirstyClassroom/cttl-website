@@ -18,7 +18,7 @@
       document.getElementById('job-meta').textContent = [job.location, job.pay].filter(Boolean).join(' · ');
       // Description HTML is sanitised during the Netlify build.
       document.getElementById('job-description').innerHTML = job.description;
-      document.getElementById('job-apply').href = 'mailto:apply@classroomteachers.co.uk?subject=' + encodeURIComponent('Application enquiry: ' + job.title);
+      document.getElementById('job-apply').href = 'https://tally.so/r/OQ78a7?jobTitle=' + encodeURIComponent(job.title);
       return;
     }
     status.textContent = jobs.length ? '' : 'There are no opportunities listed at present. Please contact us to register your interest.';
